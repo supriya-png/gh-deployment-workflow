@@ -7,7 +7,7 @@ On:
       -'index.html'
 permissions:
   contents: write
-jobs
+jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
