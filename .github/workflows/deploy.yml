@@ -1,5 +1,4 @@
 - name: Deploy to pages
-
 on:
   push:
     branches:
