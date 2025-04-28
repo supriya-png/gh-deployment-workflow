@@ -13,6 +13,9 @@ jobs:
 
         steps:
          - name: checkout Repository
+           uses: actions/checkout@v4
+
+         - name: Setup pages
            uses: actions/configure-pages@v4
 
          - name: Upload Artifact
